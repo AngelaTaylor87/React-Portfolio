@@ -4,6 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <header style={{backgroundColor: "lightblue"}}>
     <div className="nav nav-tabs">
     <div className="nav-item">
       
@@ -52,6 +53,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     
     </div>
     </div>
+    </header>
   );
 }
 
