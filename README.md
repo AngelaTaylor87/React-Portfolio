@@ -15,6 +15,7 @@ coming soon!
 • CSS3
 • JS
 • React
+• React-dom
 • Github
 • VScode
 
