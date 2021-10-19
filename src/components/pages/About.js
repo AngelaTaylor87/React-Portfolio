@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Contact() {
+export default function About() {
   return (
     <div>
-      <h1>About me</h1>
+      <h1>Bio</h1>
       <p> I am Angela Taylor, currently i'm enrolled as a part-time student at a Rice
                         University Coding Boot Camp, from Houston, Tx. At this time I am a beginner in this field, with hopes to
                         be a highly
