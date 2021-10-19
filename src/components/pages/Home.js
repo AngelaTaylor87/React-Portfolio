@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <h1>Home</h1>
       <p>
-       Hello, I write code! 
+       Hello, I write code :)! 
       </p>
       <p>
         Check out my portfolio!
