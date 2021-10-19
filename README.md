@@ -5,7 +5,7 @@ This is my react portfolio.
  https://angelataylor87.github.io/React-Portfolio/
 
 # Screenshot
-coming soon!
+Coming Soon!
 
 # Desrciption 
  As a devloper I want a place to showcase my skills and be able to standout from other candidates during my career search. 
