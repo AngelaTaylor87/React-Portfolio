@@ -4,10 +4,9 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header style={{backgroundColor: "lightblue"}}>
-    <div className="nav nav-tabs">
-    <div className="nav-item">
-      
+    
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -17,18 +16,18 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Home
         </a>
-      
-      <div className="nav-item">
+      </li>
+      <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About Me
+          About
         </a>
-      </div>
-      <div className="nav-item">
+      </li>
+      <li className="nav-item">
 
         {/* blog will be project section */}
         <a
@@ -39,8 +38,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Projects
         </a>
-      </div>
-      <div className="nav-item">
+      </li>
+      <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -49,12 +48,13 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </div>
-    
-    </div>
-    </div>
-    </header>
+      </li>
+    </ul>
+   
   );
 }
+
+    
+  
 
 export default NavTabs;
