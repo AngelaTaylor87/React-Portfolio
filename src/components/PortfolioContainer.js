@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
-import Work from './pages/Work';
-// import Project from './Project'
+import Project from './pages/Project';
+
 import Contact from './pages/Contact';
 // import Resume from '../pages/Resume';
 import Footer from './Footer';
@@ -20,8 +20,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Work') {
-      return <Work />;
+    if (currentPage === 'Project') {
+      return <Project />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
